@@ -10,7 +10,7 @@ import img9 from '../assets/training5.jpg'
 
 
 
-const TrainingSection = () => {
+const Training = () => {
   const images = [
    img6,img7,img8,img9
   ];
@@ -61,4 +61,4 @@ const TrainingSection = () => {
   );
 };
 
-export default TrainingSection;
+export default Training;
