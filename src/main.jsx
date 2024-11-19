@@ -11,6 +11,7 @@ import Contact from './pages/Contact.jsx'
 import Dgfcware from './pages/DGFCWARE.jsx'
 import Training from './pages/Training.jsx'
 import Event from './pages/Event.jsx'
+import Footer from './components/Footer.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
      <div>
       <Navbar/>
       <Home/>
+      <Footer/>
      </div>
   },
   {
@@ -28,6 +30,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <About/>
+      <Footer/>
     </div>
   },
   {
@@ -36,6 +39,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <Services/>
+      <Footer/>
     </div>
   },
   {
@@ -44,6 +48,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <Contact/>
+      <Footer/>
     </div>
   },
   {
@@ -52,6 +57,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <Dgfcware/>
+      <Footer/>
     </div>
   },
   {
@@ -60,6 +66,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <Training/>
+      <Footer/>
     </div>
   },
   {
@@ -68,6 +75,7 @@ const router = createBrowserRouter([
     <div>
       <Navbar/>
       <Event/>
+      <Footer/>
     </div>
   }
 ])
