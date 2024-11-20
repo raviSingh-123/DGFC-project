@@ -61,15 +61,18 @@ function About1() {
 
             <div className="max-w-[1320px] mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-8 pb-6">
+                    <div className=" ml-4 md:ml-16 mt-9">
+                        <img className="w-[300px] h-auto md:w-[300px] md:h-[350px] rounded-2xl" src={CEO} alt="CEO" />
+                    </div>
                     <div className="flex-col">
-                        <h1 className="font-bold text-[25px] py-4">Shri Gopi Chand Dhingra (1925–2012)</h1>
-                        <p className="font-normal"> <span className="font-bold">"Success is born of dedication,   integrity, and an unwavering commitment to excellence."</span>
+                        <h1 className="font-bold text-[20px] py-4">Founder of DGFC</h1>
+                        <h1 className="font-bold text-[25px] pb-4">Shri Gopi Chand Dhingra (1925–2012)</h1>
+                        <p className="font-bold text-[15px] py-4">"Success is born of dedication,integrity,and an unwavering commitment to excellence."</p>
+                        <p className="font-normal">
                             Shri Gopi Chand Dhingra, who founded our company in 1958 with a vision to bring quality and innovation to every aspect of our work. Born on October 15, 1925, Shri Gopi Chand Dhingra dedicated his life to building a company that would stand the test of time. He believed in the power of hard work, resilience, and the importance of creating a positive impact within the community.
                             Since our founding in 1958, we have grown and flourished under his leadership, staying true to his legacy of honesty and commitment to quality. His values continue to inspire us, and his vision remains our guiding light as we strive to deliver excellence in everything we do.
-                            Today, as we remember Shri Gopi Chand Dhingra's life and achievements, we honor his memory by upholding the principles he held dear. His legacy lives on in every aspect of our company, and we are proud to carry forward his dream.</p>
-                    </div>
-                    <div className=" ml-4 md:ml-44 mt-6">
-                        <img className="w-[300px] h-auto md:w-[300px] md:h-[350px]" src={CEO} alt="CEO" />
+                        </p>
+                        <p className="font-normal py-4">Today, as we remember Shri Gopi Chand Dhingra's life and achievements, we honor his memory by upholding the principles he held dear. His legacy lives on in every aspect of our company, and we are proud to carry forward his dream.</p>
                     </div>
                 </div>
 
