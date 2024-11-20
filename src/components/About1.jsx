@@ -69,7 +69,7 @@ function About1() {
                             Today, as we remember Shri Gopi Chand Dhingra's life and achievements, we honor his memory by upholding the principles he held dear. His legacy lives on in every aspect of our company, and we are proud to carry forward his dream.</p>
                     </div>
                     <div className=" ml-4 md:ml-44 mt-6">
-                        <img className="w-[30s0px] h-[300px] md:w-[300px] md:h-[350px]" src={CEO} alt="CEO" />
+                        <img className="w-[300px] h-auto md:w-[300px] md:h-[350px]" src={CEO} alt="CEO" />
                     </div>
                 </div>
 
