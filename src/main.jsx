@@ -69,15 +69,6 @@ const router = createBrowserRouter([
       <Footer/>
     </div>
   },
-  {
-    path:"/event",
-    element:
-    <div>
-      <Navbar/>
-      <Event/>
-      <Footer/>
-    </div>
-  }
 ])
 
 createRoot(document.getElementById('root')).render(

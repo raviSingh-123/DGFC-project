@@ -34,9 +34,6 @@ function Navbar() {
                                 <NavLink to='/training' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>TRAINING</NavLink>
                             </li>
                             <li className='hover:text-yellow-300 hover:underline'>
-                                <NavLink to='/event' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>EVENT</NavLink>
-                            </li>
-                            <li className='hover:text-yellow-300 hover:underline'>
                                 <NavLink to='/contact' className={({ isActive }) => isActive ? "text-yellow-300 underline" : "text-white"}>CONTACT</NavLink>
                             </li>
                         </ul>
@@ -60,9 +57,6 @@ function Navbar() {
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
                             <NavLink to='/training' onClick={() => setMenu(!menu)} className={({ isActive }) => isActive ? "text-red-600 underline" : "text-black"}>TRAINING</NavLink>
-                        </li>
-                        <li className='hover:text-yellow-300 hover:underline'>
-                            <NavLink to='/event' onClick={() => setMenu(!menu)} className={({ isActive }) => isActive ? "text-red-600 underline" : "text-black"}>EVENT</NavLink>
                         </li>
                         <li className='hover:text-yellow-300 hover:underline'>
                             <NavLink to='/contact' onClick={() => setMenu(!menu)} className={({ isActive }) => isActive ? "text-red-600 underline" : "text-black"}>CONTACT</NavLink>
