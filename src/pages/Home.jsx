@@ -304,41 +304,18 @@ function Home() {
 
       {/* our vision and our mission section wala h  */}
 
-      <section
-        className="bg-cover h-full bg-center py-10"
-        style={{
-          backgroundImage:
-            'url("https://img.freepik.com/free-vector/polygonal-background_53876-59142.jpg?uid=R174008159&ga=GA1.1.2054276004.1731593415&semt=ais_hybrid")',
-        }}
-      >
-        <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 py-3 mt-4 ">
-          <div className="flex-col shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg">
-            <h2 className="text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2 ">
-              Our Vision
-            </h2>
-            <p className="text-center py-2 text-[18px] px-2">
-              With over 65 years of excellence behind us, we have established
-              ourselves as India's leading logistics chain solutions provider
-              with a PAN-India presence. A complete solution emerges through the
-              amalgamation of diverse forces As services continue to become
-              increasingly specialized and segmented, customized solutions have
-              become the need of the our.{" "}
-            </p>
-          </div>
-          <div className="flex-col  shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg">
-            <h2 className="text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2">
-              Our Mission
-            </h2>
-            <p className="text-center py-2 text-[18px]">
-              Our mission is to create satisfied customer by offering them
-              integrated logistics services in the most effective way and to be
-              the safest, consistent and cost efficient logistics service
-              provider thereby ensuring long lasting business relationship and
-              growth of both the organizations.{" "}
-            </p>
-          </div>
-        </div>
-      </section>
+            <section>
+                <div className='max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 py-3 mt-4 '>
+                    <div className='flex-col shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg'>
+                        <h2 className='text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2 '>Our Vision</h2>
+                        <p className='text-center py-2 text-[18px] px-2'>With over 65 years of excellence behind us, we have established ourselves as India's leading logistics chain solutions provider with a PAN-India presence. A complete solution emerges through the amalgamation of diverse forces As services continue to become  increasingly specialized and segmented, customized solutions have become the need of the our. </p>
+                    </div>
+                    <div className='flex-col  shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg'>
+                        <h2 className='text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2'>Our Mission</h2>
+                        <p className='text-center py-2 text-[18px]'>Our mission is to create satisfied customer by offering them integrated logistics services in the most effective way and to be  the safest, consistent and cost efficient logistics service provider thereby ensuring long lasting business relationship and growth of both the organizations. </p>
+                    </div>
+                </div>
+            </section>
 
       {/* service section wala h */}
       <section>
