@@ -308,7 +308,7 @@ function Home() {
                     </div>
                     <div className='flex-col  shadow-slate-500 shadow-xl p-10 h-[500px] bg-orange-400 rounded-lg w-[400px]'>
                         <h2 className='text-[20px] font-bold bg-black text-white mx-16 md:mx-20 rounded-lg my-4 text-center mt-2'>Our Mission</h2>
-                        <p className='text-center py-2 text-[18px]'>Our mission is to create satisfied customer by offering them integrated logistics services in the most effective way and to be  the safest, consistent and cost efficient logistics service provider thereby ensuring long lasting business relationship and growth of both the organizations. </p>
+                        <p className='text-center py-2 text-[18px]'>Our mission is to create satisfied customers by offering integrated logistics services in the most effective, safe, consistent, and cost-efficient manner, thereby ensuring long-lasting business relationships and mutual growth for both organizations. We strive to continuously innovate and adapt to meet the evolving needs of our customers.</p>
                     </div>
                 </div>
             </section>
