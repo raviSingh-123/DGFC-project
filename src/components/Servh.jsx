@@ -53,7 +53,7 @@ const Servh = () => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-white shadow-lg  rounded-lg p-4 w-[520px] flex flex-col items-center">
+          <div className="bg-white shadow-lg  rounded-lg p-4 w-[300px] flex flex-col items-center">
             <div className="flex justify-center">
               <img src={img17} alt="Logistics" className="w-52 h-44 object-cover mb-4" />
             </div>
