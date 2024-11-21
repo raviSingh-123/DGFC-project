@@ -115,29 +115,8 @@ function About1() {
                 </div>
             </section>
 
-            {/* vision and mission */}
             <section>
-                <div className="pt-14 pb-14 text-center">
-                    <div className="flex justify-center">
-                        <p className="mt-0 md:mt-3">______________ </p>
-                        <h1 className="text-[20px] md:text-[40px]  font-bold text-red-500 px-2">
-                            VISION AND MISSION
-                        </h1>
-                        <p className="mt-0 md:mt-3">______________</p>
-                    </div>
-
-                    <p className="px-4 sm:px-12 lg:px-32 xl:px-72 py-4 sm:py-6 text-sm sm:text-base lg:text-lg">
-                        Our mission is to create satisfied customer by offering them
-                        integrated logistics services in the most effective way and to be
-                        the safest, consistent and cost efficient logistics service provider
-                        thereby ensuring long lasting business relationship and growth of
-                        both the organizations. We want to maintain the superior quality of
-                        our fleet as per global standards and conduct our business with
-                        integrity, in compliance with applicable laws,and in manner that
-                        creates values for all our associates.
-                    </p>
-                </div>
-
+                
                 {/* quality policy */}
                 <div className="pb-14 text-center">
                     <div className="flex justify-center">
