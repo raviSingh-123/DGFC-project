@@ -83,13 +83,15 @@ function About1() {
             </div>
 
             {/* who we are */}
-            <section className="relative p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
+            <section className="p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
                 {/* Text Section */}
-                <div className="md:w-[50%] space-y-4">
-                    <h2 className="text-2xl md:text-4xl font-bold text-red-500">
+                <div className="md:w-[100%] space-y-4">
+
+                    <h2 className="text-2xl text-center md:text-4xl font-bold text-red-500">
                         WHO WE ARE
                     </h2>
-                    <hr className="border-black w-16 border-b-2" />
+                    
+                    
                     <p className="text-black text-center text-sm md:text-base">
                         After 60 years of having established ourselves as the driving force
                         and leaders of the Indian logistics industry, we have provided
@@ -101,7 +103,7 @@ function About1() {
                 </div>
 
                 {/* Video Section */}
-                <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8">
+                {/* <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8">
                     <div className="aspect-w-16 aspect-h-9">
                         <iframe
                             className="w-full h-[480px] rounded-lg shadow-lg"
@@ -112,7 +114,7 @@ function About1() {
                             allowFullScreen
                         ></iframe>
                     </div>
-                </div>
+                </div> */}
             </section>
 
             <section>
