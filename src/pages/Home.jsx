@@ -113,8 +113,8 @@ function Home() {
 
     return (
 
-        
-        
+
+
         <div>
             {/* slidebar ke liye code hai */}
             <div className="relative">
@@ -202,7 +202,7 @@ function Home() {
 
 
             {/* experience section ke liye code h  */}
-            <section className="bg-cover h-full bg-center p-2"
+            <section className="bg-cover h-full bg-center py-10"
           style={{ backgroundImage: 'url("https://wallpapers.com/images/hd/light-orange-background-fmy8043gpm85n843.jpg")' }}>
                 <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-flow-col md:grid-cols-[40%_60%] pb-8">
                     <img
@@ -230,15 +230,15 @@ function Home() {
             </section>
 
             {/* Largest transport company section h ... */}
-           <Count/>
+            <Count />
 
             {/* our achievement section */}
             <section className="bg-cover h-full bg-center py-10"
-          style={{ backgroundImage: 'url("https://files.123freevectors.com/wp-content/original/107062-light-orange-abstract.jpg")' }} >
+                style={{ backgroundImage: 'url("https://files.123freevectors.com/wp-content/original/107062-light-orange-abstract.jpg")' }} >
                 <h1 className="text-center text-lg sm:text-3xl md:text-4xl lg:text-5xl text-red-500 font-bold">
                     Our Achievement
                 </h1>
-                
+
                 <ul className="px-6 ml-6 text-[15px] mt-6 space-y-4">
                     <li className="font-bold text-[15px] sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
                         ✅ ALL INDIA NO. 1 TRANSPORTER BY HONDA SCOOTERS
@@ -298,42 +298,17 @@ function Home() {
                 </div>
             </section>
 
-            {/* our future vision section wala h  */}
+            {/* our vision and our mission section wala h  */}
 
             <section>
-                <div className="pt-14 pb-14 text-center">
-                    <div className="flex justify-center">
-                        <p className="mt-3">______________ </p>
-                        <h1 className="text-[40px] font-bold text-red-500 px-2">
-                            OUR FUTURE VISION
-                        </h1>
-                        <p className="mt-3">______________</p>
+                <div className='max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 py-3 mt-4 '>
+                    <div className='flex-col shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg'>
+                        <h2 className='text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2 '>Our Vision</h2>
+                        <p className='text-center py-2 text-[18px] px-2'>With over 65 years of excellence behind us, we have established ourselves as India's leading logistics chain solutions provider with a PAN-India presence. A complete solution emerges through the amalgamation of diverse forces As services continue to become  increasingly specialized and segmented, customized solutions have become the need of the our. </p>
                     </div>
-
-                    <p className="px-4 sm:px-12 lg:px-32 xl:px-72 py-4 sm:py-6 text-sm sm:text-base lg:text-lg">
-                        With over 65 years of excellence behind us, we have established
-                        ourselves as India's leading logistics chain solutions provider with
-                        a PAN-India presence. A complete solution emerges through the
-                        amalgamation of diverse forces. As services continue to become
-                        increasingly specialized and segmented, customized solutions have
-                        become the need of the hour.
-                    </p>
-                    <div className="mt-6 space-y-4 px-6">
-                        <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-                            ⭐To become a major contributor in providing end-to-end logistics
-                            solutions.
-                        </h2>
-                        <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-                            ⭐To expand our network across all regions of India.
-                        </h2>
-                        <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-                            ⭐To cultivate high standards of business by ensuring the safe and
-                            timely delivery of goods.
-                        </h2>
-                        <h2 className="font-bold text-[15px] sm:text-[20px] center sm:ml-16">
-                            ⭐To achieve international standards with a focus on customers,
-                            services, and cost reduction.
-                        </h2>
+                    <div className='flex-col  shadow-slate-500 shadow-xl p-10 pb-24 bg-orange-400 rounded-lg'>
+                        <h2 className='text-[30px] font-bold bg-black text-white mx-16 md:mx-44 rounded-lg my-4 text-center mt-2'>Our Mission</h2>
+                        <p className='text-center py-2 text-[18px]'>Our mission is to create satisfied customer by offering them integrated logistics services in the most effective way and to be  the safest, consistent and cost efficient logistics service provider thereby ensuring long lasting business relationship and growth of both the organizations. </p>
                     </div>
                 </div>
             </section>
@@ -365,10 +340,10 @@ function Home() {
             <section>
                 <Maor />
             </section>
-            
+
             {/* newletter wala h  */}
             <section>
-                <Newsletter/>
+                <Newsletter />
             </section>
         </div>
     )
