@@ -59,6 +59,7 @@ import Gallery from "../components/Gallery";
 import Maor from "../components/Maor";
 import Newsletter from "../components/Newsletter";
 import Count from "./Count";
+import Certificate from "../components/Certificate";
 function Home() {
     const images = [img1, img2, img3];
 
@@ -257,7 +258,7 @@ function Home() {
                     </li>
                 </ul>
 
-                <div className="px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 mx-auto md:mx-10">
+                {/* <div className="px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 mx-auto md:mx-10">
                     <img
                         className="border-black border-2 rounded-lg h-40 w-40 sm:h-48 sm:w-48 md:h-60 md:w-60 lg:h-72 lg:w-72 object-cover"
                         src={img101}
@@ -298,7 +299,13 @@ function Home() {
                         src={img106}
                         alt=""
                     />
-                </div>
+                </div> */}
+
+                {/* certificate ka section hai */}
+  
+             <Certificate/>
+
+
             </section>
 
             {/* our vision and our mission section wala h  */}

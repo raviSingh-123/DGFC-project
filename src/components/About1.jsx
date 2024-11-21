@@ -86,11 +86,10 @@ function About1() {
             <section className="p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
                 {/* Text Section */}
                 <div className="md:w-[100%] space-y-4">
-
+                    
                     <h2 className="text-2xl text-center md:text-4xl font-bold text-red-500">
                         WHO WE ARE
                     </h2>
-                    
                     
                     <p className="text-black text-center text-sm md:text-base">
                         After 60 years of having established ourselves as the driving force
