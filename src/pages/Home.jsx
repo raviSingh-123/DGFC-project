@@ -4,7 +4,7 @@ import img1 from '../assets/banner.jpg'
 import img2 from '../assets/12.jpg'
 import img3 from '../assets/truck05.jpg'
 import img4 from '../assets/service3copy.jpg'
-import img5 from '../assets/65y+.jpg'
+import img5 from '../assets/65+yrnew.png'
 // import bg from '../assets/bg.jpg'
 import automobile1 from '../assets/automobile1.png'
 import img13 from '../assets/car (1).jpg'
@@ -202,15 +202,15 @@ function Home() {
 
 
             {/* experience section ke liye code h  */}
-            <section className="bg-cover h-full bg-center py-10"
+            <section className="bg-cover h-full bg-center p-2"
           style={{ backgroundImage: 'url("https://wallpapers.com/images/hd/light-orange-background-fmy8043gpm85n843.jpg")' }}>
                 <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-flow-col md:grid-cols-[40%_60%] pb-8">
                     <img
-                        className="p-4 mt-4 w-[400px] h-auto pl-6 md:pl-0 md:w-[629px] md:h-[475px] border-black rounded-full"
+                        className="p-4 md:-mt-14  w-[400px] h-auto pl-6 md:pl-0 md:w-[629px] md:h-[629px] border-black rounded-full"
                         src={img5}
                         alt="experienceLogo"
                     />
-                    <p className="text-l text-black py-5 px-14 mt-10 font-normal">
+                    <p className="text-[18px] md:mt-16 text-black pt-16 px-14 font-medium">
                         With over 65 years of experience as leaders and pioneers in the
                         Indian logistics industry, we have consistently delivered
                         exceptional services to our clients, prioritizing safety,
@@ -352,14 +352,14 @@ function Home() {
 
             {/* Gallery section yaha se hai  */}
 
-            <section>
+            {/* <section>
                 <div className="flex justify-center my-4 mb-4">
                     <p className="mt-3">________</p>
                     <h1 className=" px-2 text-[40px] font-bold text-red-500">GALLERY</h1>
                     <p className="mt-3">________</p>
                 </div>
                 <Gallery />
-            </section>
+            </section> */}
 
             {/* our major clients part here */}
             <section>

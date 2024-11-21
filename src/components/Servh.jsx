@@ -1,9 +1,9 @@
 import React from 'react';
-import img13 from "../assets/1.jpg";
-import img14 from "../assets/glry.png";
+import img13 from "../assets/s1 (1).jpg";
+import img14 from "../assets/2ndplace.jpg";
 import img17 from "../assets/galrylog.jpg";
-import img15 from "../assets/galry (2).jpg";
-import img16 from "../assets/galry (2).jpg";
+import img15 from "../assets/s1 (2).jpg";
+import img16 from "../assets/s1 (1).jpg";
 
 const Servh = () => {
   const images = [
@@ -53,9 +53,9 @@ const Servh = () => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-white shadow-lg rounded-lg p-4 flex flex-col items-center">
+          <div className="bg-white shadow-lg  rounded-lg p-4 w-[520px] flex flex-col items-center">
             <div className="flex justify-center">
-              <img src={img17} alt="Logistics" className="w-32 h-32 object-cover mb-4" />
+              <img src={img17} alt="Logistics" className="w-52 h-44 object-cover mb-4" />
             </div>
             <h4 className="text-lg font-semibold text-gray-900">Logistics</h4>
             <hr className="border-gray-400 w-12 mt-2 mx-auto" />
@@ -69,7 +69,7 @@ const Servh = () => {
               key={index}
               src={image}
               alt={`Truck ${index + 1}`}
-              className="w-full h-40 object-cover rounded-lg shadow-md"
+              className="w-full h-50 object-cover rounded-lg shadow-md"
             />
           ))}
         </div>
