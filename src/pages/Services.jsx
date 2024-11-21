@@ -33,7 +33,8 @@ function Services() {
   ]
   return (
     <div>
-      <section>
+                 <section className="bg-cover h-full bg-center py-10"
+          style={{ backgroundImage: 'url("https://files.123freevectors.com/wp-content/original/107062-light-orange-abstract.jpg")' }} >
         <div className='max-w-[1320px] mx-auto md:px-0 px-2'>
           <h1 className='tetx-[20px] ml-4 md:ml-0 pt-10 font-medium py-4'>DGFC formed in 1958 managed by a team of professionals who are dedicated and sincere to responding promptly to customer demands. Offering professional and personalized services, guidance in all trading process including how to save time by curtailing costs.</h1>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4 pb-8'>

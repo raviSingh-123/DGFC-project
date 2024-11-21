@@ -4,7 +4,7 @@ import Logo2 from '../assets/dgfc_logo.png';
 
 function Footer() {
   return (
-    <footer className="bg-orange-400 text-white font-semibold py-14">
+    <footer className="bg-orange-500 text-white font-semibold py-14">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* About Section */}

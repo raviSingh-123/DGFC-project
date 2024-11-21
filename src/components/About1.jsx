@@ -4,7 +4,11 @@ import CEO from '../assets/CEO.jpg'
 function About1() {
     return (
         <>
-            <div className="bg-yellow-50 py-10">
+
+<section className="bg-cover h-full bg-center py-10"
+          style={{ backgroundImage: 'url("https://files.123freevectors.com/wp-content/original/107062-light-orange-abstract.jpg")' }} >
+        
+            <div className="py-10">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6">
                     {/* Text Section */}
                     <div className="md:w-1/2">
@@ -65,7 +69,7 @@ function About1() {
                         <img className="w-[300px] h-auto md:w-[300px] md:h-[350px] rounded-2xl" src={CEO} alt="CEO" />
                     </div>
                     <div className="flex-col">
-                        <h1 className="font-bold text-[20px] py-4">Founder of DGFC</h1>
+                        <h1 className="font-bold text-center text-[25px] py-4">Founder of DGFC</h1>
                         <h1 className="font-bold text-[25px] pb-4">Shri Gopi Chand Dhingra (1925–2012)</h1>
                         <p className="font-bold text-[15px] py-4">"Success is born of dedication,integrity,and an unwavering commitment to excellence."</p>
                         <p className="font-normal">
@@ -79,7 +83,7 @@ function About1() {
             </div>
 
             {/* who we are */}
-            <section className="bg-red-50 relative p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
+            <section className="relative p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
                 {/* Text Section */}
                 <div className="md:w-[50%] space-y-4">
                     <h2 className="text-2xl md:text-4xl font-bold text-red-500">
@@ -135,7 +139,7 @@ function About1() {
                 </div>
 
                 {/* quality policy */}
-                <div className="pb-14 text-center bg-orange-200">
+                <div className="pb-14 text-center">
                     <div className="flex justify-center">
                         <p className="md:mt-3 mt-0">______________ </p>
                         <h1 className="text-[20px] md:text-[40px]  font-bold text-red-500 px-2">
@@ -171,6 +175,8 @@ function About1() {
                     </div>
                 </div>
             </section>
+            </section>
+
         </>
     );
 }

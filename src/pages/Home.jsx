@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import img1 from '../assets/banner.jpg'
 import img2 from '../assets/12.jpg'
 import img3 from '../assets/truck05.jpg'
@@ -57,6 +58,7 @@ import Chain from '../components/Chain'
 import Gallery from '../components/Gallery'
 import Maor from '../components/Maor'
 import Newsletter from '../components/Newsletter'
+import Count from './Count'
 function Home() {
     const images = [img1, img2, img3]
 
@@ -110,6 +112,9 @@ function Home() {
 
 
     return (
+
+        
+        
         <div>
             {/* slidebar ke liye code hai */}
             <div className="relative">
@@ -197,7 +202,8 @@ function Home() {
 
 
             {/* experience section ke liye code h  */}
-            <section className="bg-cyan-50 p-1">
+            <section className="bg-cover h-full bg-center py-10"
+          style={{ backgroundImage: 'url("https://wallpapers.com/images/hd/light-orange-background-fmy8043gpm85n843.jpg")' }}>
                 <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-flow-col md:grid-cols-[40%_60%] pb-8">
                     <img
                         className="p-4 mt-4 w-[400px] h-auto pl-6 md:pl-0 md:w-[629px] md:h-[475px] border-black rounded-full"
@@ -224,59 +230,29 @@ function Home() {
             </section>
 
             {/* Largest transport company section h ... */}
-            <section>
-                <div className="flex items-center justify-center my-4 mb-7">
-                    <p>_________</p>
-                    <h1 className="mt-3 px-2 text-[16px] md:text-[25px] text-red-500 font-bold">
-                        Largest Transport Company
-                    </h1>
-                    <p>_________</p>
-                </div>
-                <div className="flex flex-wrap justify-center text-black px-4 sm:px-10 lg:px-24">
-                    {card.map(({ id, logo, tittle, para, desc }) => (
-                        <div
-                            key={id}
-                            className="flex flex-col m-4 hover:cursor-pointer group duration-300 shadow-lg text-center max-w-[90%] sm:max-w-[45%] lg:max-w-[30%]"
-                        >
-                            <img
-                                className="w-full h-auto pt-4 group-hover:rounded-lg"
-                                src={logo}
-                                alt={tittle}
-                            />
-                            <h1 className="text-[18px] sm:text-[20px] lg:text-[25px] font-bold group-hover:text-center hover:text-blue-600 mt-4">
-                                {tittle}
-                            </h1>
-                            <p className="font-medium text-[14px] sm:text-[16px] lg:text-[18px] mt-2">
-                                {para}
-                            </p>
-                            <p className="text-[14px] sm:text-[16px] lg:text-[20px] font-normal group-hover:text-center group-hover:pb-4 mt-2">
-                                {desc}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-            </section>
+           <Count/>
 
             {/* our achievement section */}
-            <section className="bg-orange-200 p-6">
+            <section className="bg-cover h-full bg-center py-10"
+          style={{ backgroundImage: 'url("https://files.123freevectors.com/wp-content/original/107062-light-orange-abstract.jpg")' }} >
                 <h1 className="text-center text-lg sm:text-3xl md:text-4xl lg:text-5xl text-red-500 font-bold">
                     Our Achievement
                 </h1>
-
-                <div className="px-6 mt-6 space-y-4">
-                    <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
+                
+                <ul className="px-6 ml-6 text-[15px] mt-6 space-y-4">
+                    <li className="font-bold text-[15px] sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
                         ✅ ALL INDIA NO. 1 TRANSPORTER BY HONDA SCOOTERS
-                    </h2>
-                    <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
+                    </li>
+                    <li className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
                         ✅ MOST FLEXIBLE TRANSPORTER BY MARUTI SUZUKI
-                    </h2>
-                    <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
+                    </li>
+                    <li className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
                         ✅ TRANSPORT RATAN AWARD BY AIMT
-                    </h2>
-                    <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
+                    </li>
+                    <li className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-left sm:ml-4 md:ml-8 lg:ml-12">
                         ✅ BEST TRANSPORTER AWARD IN THREE CONSECUTIVE YEARS BY MERCEDES BENZ
-                    </h2>
-                </div>
+                    </li>
+                </ul>
 
                 <div className="px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 mx-auto md:mx-10">
                     <img

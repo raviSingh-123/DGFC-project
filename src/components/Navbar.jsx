@@ -10,7 +10,7 @@ function Navbar() {
     const [menu, setMenu] = useState(false)
     return (
         <div>
-            <div className='max-w-screen-2xl mx-auto px-4 md:px-20 h-16 bg-orange-400'>
+            <div className='max-w-screen-2xl mx-auto px-4 md:px-20 h-16 bg-orange-500'>
                 <div className='flex justify-between items-center h-16'>
                     <div className='flex space-x-2'>
                         <img className='w-[60px] h-[60px]' src={Logo1} alt='logo' />

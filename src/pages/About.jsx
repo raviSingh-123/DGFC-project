@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
       <About1/>
-       <Chain/>
+       {/* <Chain/> */}
     </div>
 
   )
