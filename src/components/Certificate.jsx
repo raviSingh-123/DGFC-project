@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import c1 from '../assets/certi (1).jpg';
 import c2 from '../assets/certi (2).jpg';
 import c3 from '../assets/certi (3).jpg';
- import c5 from '../assets/certi 5.jpg';
+import c5 from '../assets/certi 5.jpg';
+
 const certificates = [
   { id: 1, src: c1, title: "ISO - 9001" },
   { id: 2, src: c2, title: "ISO - 14001"},

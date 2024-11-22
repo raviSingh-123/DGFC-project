@@ -8,6 +8,7 @@ import img7 from "../assets/training2.jpg";
 import img8 from "../assets/training3.jpg";
 import img9 from "../assets/training5.jpg";
 import Imgslider from "../components/imgslider";
+import EventSlider from "../components/EventSlider";
 
 const Training = () => {
   const images = [img6, img7, img8, img9];
@@ -68,6 +69,7 @@ const Training = () => {
 
     <section>
       <Imgslider/>
+      <EventSlider/>
     </section>
     </>
   );
