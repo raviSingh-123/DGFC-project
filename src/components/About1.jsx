@@ -69,7 +69,7 @@ function About1() {
                         <img className="w-[300px] h-auto md:w-[300px] md:h-[350px] rounded-2xl" src={CEO} alt="CEO" />
                     </div>
                     <div className="flex-col">
-                        <h1 className="font-bold text-center text-[25px] py-4">Founder of DGFC</h1>
+                        <h1 className="font-bold text-center text-[25px] py-4">Founder</h1>
                         <h1 className="font-bold text-[25px] pb-4">Shri Gopi Chand Dhingra (1925–2012)</h1>
                         <p className="font-bold text-[15px] py-4">"Success is born of dedication,integrity,and an unwavering commitment to excellence."</p>
                         <p className="font-normal">
@@ -86,11 +86,10 @@ function About1() {
             <section className="p-8 md:p-16 flex flex-col md:flex-row items-center md:items-start">
                 {/* Text Section */}
                 <div className="md:w-[100%] space-y-4">
-                    
-                    <h2 className="text-2xl text-center md:text-4xl font-bold text-red-500">
+                    <h2 className="text-2xl text- md:text-4xl font-bold text-red-500">
                         WHO WE ARE
                     </h2>
-                    
+                    <hr className="border-black w-16 border-b-2" />
                     <p className="text-black text-center text-sm md:text-base">
                         After 60 years of having established ourselves as the driving force
                         and leaders of the Indian logistics industry, we have provided
