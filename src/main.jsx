@@ -10,7 +10,6 @@ import Services from './pages/Services.jsx'
 import Contact from './pages/Contact.jsx'
 import Dgfcware from './pages/DGFCWARE.jsx'
 import Training from './pages/Training.jsx'
-
 import Footer from './components/Footer.jsx'
 
 
