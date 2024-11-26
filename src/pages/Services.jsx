@@ -2,6 +2,8 @@ import React from 'react'
 import service1 from '../assets/service1.jpg'
 import service2 from '../assets/service2.jpg'
 import service3 from '../assets/service3.jpg'
+import Quote from '../components/Quote'
+import ServiceCards from '../components/ServiceCards'
 
 function Services() {
   const services = [
@@ -48,20 +50,17 @@ function Services() {
             </div>
           </div>
           <h1 className='text-center py-4 text-[25px] font-bold font-serif text-white bg-black mt-6 mb-4 mx-10 
-          md:mx-[500px] rounded-lg'>BEST SERVICES</h1>
-          <p className='tetx-[20px] ml-4 md:ml-0  font-medium pb-4'>We offer a comprehensive range of services that are customized to suit the needs and wants of our clients. Our services include :</p>
-          <div className='grid grid-cols-1  md:grid-cols-4 gap-4 pb-6'>
-            {
-              services.map((services)=>(
-               <div key={services.id} className='flex-col shadow-xl md:hover:bg-white group pb-3 duration-300'>
-                 <img className='rounded md:group-hover:scale-95 md:group-hover:rounded-lg' src={services.icon} alt={services.id} />
-                 <h1 className='text-[25px] font-semibold md:group-hover:text-center'>{services.title}</h1>
-                 <p className='py-5 md:hidden md:group-hover:block block md:group-hover:text-center'>{services.desc}</p>
-               </div>
-              ))
-            }
-          </div>
+          md:mx-[500px] rounded-lg'>OUR SERVICES</h1>
+          
+       {/* ---card bna hai */}
+
+          <ServiceCards/>
+
+
         </div>
+      </section>
+      <section>
+        <Quote/>
       </section>
     </div>
   )

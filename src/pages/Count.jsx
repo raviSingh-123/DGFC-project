@@ -4,10 +4,10 @@ import { IoIosPeople } from "react-icons/io";
 
 const Count = () => {
   const stats = [
-    { value: 5000, label: "Total Member", icon: <FaPeopleRoof className="text-6xl mb-4" /> },
-    { value: 500, label: "Total Staffs", icon: <IoIosPeople className="text-6xl mb-4" /> },
-    { value: 100, label: "Total Branches", icon: <IoIosPeople className="text-6xl mb-4" /> },
-    { value: 3000, label: "Satisfied Client", icon: <IoIosPeople className="text-6xl mb-4" /> },
+    { value: "3000+", label: "DGFC OWNED FLEET", icon: <FaPeopleRoof className="text-6xl mb-4" /> },
+    { value: "4500+", label: "Total Staffs", icon: <IoIosPeople className="text-6xl mb-4" /> },
+    { value: "100+", label: "Total Branches", icon: <IoIosPeople className="text-6xl mb-4" /> },
+    { value: "5000+", label: "Satisfied Client", icon: <IoIosPeople className="text-6xl mb-4" /> },
   ];
 
   return (
@@ -17,8 +17,7 @@ const Count = () => {
           India's Largest Transport Company
         </h1>
         <div
-          className="bg-cover bg-center py-10"
-          style={{ backgroundImage: 'url("https://cdn2.vectorstock.com/i/1000x1000/20/96/modern-red-orange-banner-background-vector-39962096.jpg")' }}
+          className="bg-cover bg-center py-10" 
         >
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat, index) => (

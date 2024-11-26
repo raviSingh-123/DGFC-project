@@ -27,7 +27,7 @@ function Footer() {
             <li><a href="#services" className="hover:underline">Services</a></li>
             <li><a href="#group" className="hover:underline">Dgfc Group</a></li>
             <li><a href="#training" className="hover:underline">Training</a></li>
-            <li><a href="#event" className="hover:underline">Event</a></li>
+         
             <li><a href="#contact" className="hover:underline">Contact Us</a></li>
           </ul>
         </div>
@@ -41,31 +41,19 @@ function Footer() {
           <p className="text-sm mt-2">
             📧 Drop us a message: <a href="mailto:info@dgfc.in" className="underline">info@dgfc.in</a>
           </p>
+          <p className="text-sm mt-4">
+          Regd. Office
+1/34 ,Shivaji Nagar Gurgaon 122001
+
+          </p>
+          <p className="text-sm mt-4">
+          Corporate office
+          28/5-6, samalkha, near Kapashera police station, New Delhi 110037
+          </p>
         </div>
         
         {/* Followers Section */}
-        <div>
-          <h3 className="text-lg font-bold mb-4">FOLLOWERS</h3>
-          <div className="bg-white text-blue-900 p-4 rounded-lg shadow-lg">
-            <div className="flex items-center">
-              <img
-                src="https://via.placeholder.com/40"
-                alt="DGFC Logo"
-                className="w-10 h-10 mr-3"
-              />
-              <div>
-                <p className="font-bold">DGFC PVT LTD</p>
-                <p className="text-sm">188 फॉलोअर्स</p>
-              </div>
-            </div>
-            <button className="bg-blue-600 text-white py-2 px-4 rounded-lg mt-4 w-full hover:bg-blue-800">
-              फेसबुक पेज फॉलो करें
-            </button>
-            <p className="text-center text-sm mt-2">
-              हमें Facebook पर ढूंढें
-            </p>
-          </div>
-        </div>
+        
       </div>
     </footer>
   );
