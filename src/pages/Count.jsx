@@ -1,10 +1,11 @@
 import React from "react";
 import { FaPeopleRoof } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
+import { FaTruckMoving } from "react-icons/fa";
 
 const Count = () => {
   const stats = [
-    { value: "3000+", label: "DGFC OWNED FLEET", icon: <FaPeopleRoof className="text-6xl mb-4" /> },
+    { value: "3000+", label: "DGFC OWNED FLEET", icon: <FaTruckMoving className="text-6xl mb-4" /> },
     { value: "4500+", label: "Total Staffs", icon: <IoIosPeople className="text-6xl mb-4" /> },
     { value: "100+", label: "Total Branches", icon: <IoIosPeople className="text-6xl mb-4" /> },
     { value: "5000+", label: "Satisfied Client", icon: <IoIosPeople className="text-6xl mb-4" /> },

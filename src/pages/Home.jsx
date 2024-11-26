@@ -128,7 +128,10 @@ function Home() {
                         alt={`Slide ${currentIndex}`}
                     />
                     <div className="absolute top-[15px]  md:top-[120px] lg:top-[250px] left-10 md:left-[150px] text-white bg-opacity-50 px-2 sm:px-3 md:px-4 py-1 sm:py-2 rounded-lg text-sm sm:text-base md:text-xl">
-                        <p className=" font-bold font-serif text-[14px] md:text-[25px] pb-1 sm:pb-2 md:pb-3">
+                    <p className=" font-bold font-serif text-[20px] md:text-[45px] pb-1 sm:pb-2 md:pb-3">
+                           DGFC
+                        </p>
+                        <p className=" font-bold font-serif text-[14px] md:text-[30px] pb-1 sm:pb-2 md:pb-3">
                             ONE STOP SOLUTION FOR
                         </p>
                         <p className="font-extrabold font-serif text-[20px] md:text-[60px] py-1 sm:py-2 md:py-3">
