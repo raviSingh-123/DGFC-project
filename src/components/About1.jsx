@@ -24,7 +24,7 @@ function About1() {
                 logistics industry, recognized for its reliable and conventional
                 approach to transportation solutions.
               </p>
-              <button className="bg-black text-[20px] duration-200 text-white py-2  mt-3 px-4 rounded md:hover:bg-white md:hover:text-black">
+              <button className="bg-black text-[20px] duration-200 text-white py-2  mt-24 px-4 rounded md:hover:bg-white md:hover:text-black">
                 ABOUT US
               </button>
             </div>

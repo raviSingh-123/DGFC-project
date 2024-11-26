@@ -14,7 +14,7 @@ function Navbar() {
                 <div className='flex justify-between items-center h-16'>
                     <div className='flex space-x-2'>
                         <img className='w-[60px] h-[60px]' src={Logo1} alt='logo' />
-                        <img className='w-[100px] h-[60px]' src={Logo2} alt="logo2" />
+                        <img className='w-[150px] h-[60px]' src={Logo2} alt="logo2" />
                     </div>
                     <div>
                         <ul className='hidden md:flex space-x-8 font-bold'>

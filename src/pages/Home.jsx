@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-
+import { TbSettingsSearch } from "react-icons/tb";
+import { LuPlane } from "react-icons/lu";
 import img1 from "../assets/banner.jpg";
 import img2 from "../assets/12.jpg";
 import img3 from "../assets/truck05.jpg";
@@ -316,10 +317,12 @@ function Home() {
             <section>
                 <div className='max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 py-3 mt-4 ml-4  md:ml-60'>
                     <div className='flex-col  shadow-slate-500 shadow-xl p-10 h-[500px] bg-orange-400 rounded-lg w-[400px] '>
+                        <TbSettingsSearch className="w-[55px] h-[75px] ml-32 pb-2"/>
                         <h2 className='text-[20px] font-bold bg-black text-white mx-16 md:mx-20 rounded-lg my-4 text-center mt-2 mb-10'>Our Vision</h2>
                         <p className='text-center py-2 text-[18px] px-2'>With over 65 years of excellence behind us, we have established ourselves as India's leading logistics chain solutions provider with a PAN-India presence. A complete solution emerges through the amalgamation of diverse forces As services continue to become  increasingly specialized and segmented, customized solutions have become the need of the our. </p>
                     </div>
                     <div className='flex-col  shadow-slate-500 shadow-xl p-10 h-[500px] bg-orange-400 rounded-lg w-[400px] '>
+                        <LuPlane className="w-[55px] h-[75px] ml-32 pb-2"  />
                         <h2 className='text-[20px] font-bold bg-black text-white mx-16 md:mx-20 rounded-lg my-4 text-center mt-2 mb-10 '>Our Mission</h2>
                         <p className='text-center py-2 text-[18px]'>Our mission is to create satisfied customers by offering integrated logistics services in the most effective, safe, consistent, and cost-efficient manner, thereby ensuring long-lasting business relationships and mutual growth for both organizations. We strive to continuously innovate and adapt to meet the evolving needs of our customers.</p>
                     </div>
