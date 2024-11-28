@@ -42,13 +42,13 @@ function Footer() {
             📧 Drop us a message: <a href="mailto:info@dgfc.in" className="underline">info@dgfc.in</a>
           </p>
           <p className="text-sm mt-4">
-           Regd. Office<br />
+           🏠Regd. Office<br />
             1/34 ,Shivaji Nagar Gurgaon 122001
           </p>
           
           
           <p className="text-sm mt-4">
-            Corporate Office<br />
+           🏠Corporate Office<br />
             28/5-6, Samalkha, near Kapashera police station, New Delhi 110037
           </p>
         </div>
